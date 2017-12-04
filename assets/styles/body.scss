@@ -1,0 +1,80 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  color: #838b8c;
+  h1{
+    font-weight: 600;
+    font-size: 23px;
+    color: #343a3b;
+    text-transform: uppercase;
+  }
+  h2{
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 600;
+    color: #343a3b;
+    text-transform: uppercase;
+  }
+  h3{
+    font-size: 10px;
+    line-height: 16px;
+    text-transform: uppercase;
+  }
+  h4{
+    font-size: 13px;
+    line-height: 16px;
+    color: #16d428;
+    text-transform: uppercase;
+  }
+  p{
+    font-size: 14px;
+    line-height: 16px;
+    font-family: 'Roboto', sans-serif;
+  }
+}
+header{
+  padding: 20px 0 13px 0;
+  .menu-holder{
+    text-transform: uppercase;
+    a{
+      display: inline-block;
+      padding: 26px 0 33px 0;
+      color: #16120e;
+      font-weight: 600;
+      &:hover {
+        color: #ffac56;
+        text-decoration: none;
+      }
+      &.active {
+        color: #ffac56;
+      }
+    }
+  }
+}
+.banner {
+  height: 700px;
+  background: url("../images/banner.jpg") no-repeat;
+  background-size: contain;
+}
+.banner-services{
+  width: 458px;
+  background-color: #03b6e7;
+}
+.about-us{
+  padding: 95px 0 95px 0;
+  text-align: right;
+}
+.what-make-us-stand-out {
+  padding: 95px 0 95px 0;
+  background-color: #e7eff1;
+}
+.testimonials{
+  padding: 95px 0 95px 0;
+  background-color: #03b6e7;
+  color: #fff;
+  h1{
+    color: #fff;
+  }
+  h3{
+    color: #7bdef9;
+  }
+}
